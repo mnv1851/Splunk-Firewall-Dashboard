@@ -1,5 +1,5 @@
 # Splunk-Firewall-Dashboard
-📊 Splunk dashboard project for visualizing simulated firewall log data. Includes data ingestion setup, SPL queries, dashboard panels, and alerting – built for cybersecurity monitoring and blue team practice.
+Splunk dashboard project for visualizing simulated firewall log data. Includes data ingestion setup, SPL queries, dashboard panels, and alerting – built for cybersecurity monitoring and blue team practice.
 # Firewall Log Visualization in Splunk
 
 ## Overview
@@ -49,7 +49,7 @@ Customize `sourcetype` and field names according to your firewall log format.
 
 ---
 
-## 📊 Dashboard Panels
+## Dashboard Panels
 
 - **Panel 1:** Action Breakdown (Allowed vs Blocked) – Pie Chart
 - **Panel 2:** Top Source IPs – Table
@@ -60,7 +60,7 @@ Exported dashboard JSON is available in the `dashboards/` folder for easy import
 
 ---
 
-## ⏰ Alerts (Optional)
+##  Alerts (Optional)
 
 You can convert queries into alerts:
 
@@ -74,22 +74,8 @@ Use **Save As > Alert** in Splunk to set thresholds, frequency, and notification
 
 ---
 
-## 📂 Project Structure
 
-```
-├── README.md
-├── dashboards/
-│   └── firewall_dashboard.json
-├── queries/
-│   └── sample_searches.txt
-├── sample_logs/
-│   └── firewall_simulated.log
-└── docs/
-    └── architecture.png
-```
----
-
-## 🖼️ Screenshots
+##  Screenshots
 
 Below are some sample screenshots from the Splunk dashboard created in this project.
 
@@ -115,7 +101,7 @@ Below are some sample screenshots from the Splunk dashboard created in this proj
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone this repository.
 2. Set up Splunk and configure syslog ingestion.
@@ -125,7 +111,7 @@ Below are some sample screenshots from the Splunk dashboard created in this proj
 
 ---
 
-## 📚 References
+##  References
 
 - [Splunk Dashboard Guide](https://docs.splunk.com/Documentation/Splunk/latest/Viz/Aboutdashboards)
 - [Firewall Data Onboarding - Splunk Lantern](https://lantern.splunk.com/Data_Descriptors/Network_firewall_data)
@@ -133,7 +119,7 @@ Below are some sample screenshots from the Splunk dashboard created in this proj
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Manav Sadyora**\
 Cybersecurity Enthusiast | SOC & Blue Teaming\
